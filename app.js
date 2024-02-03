@@ -2,6 +2,7 @@
 const { Command } = require('commander');
 const fs = require('fs/promises');
 const path = require('path');
+
 const program = new Command();
 
 program
@@ -59,5 +60,5 @@ program
       console.error("e", e);
     }
   });
-  
+
 program.parse();
